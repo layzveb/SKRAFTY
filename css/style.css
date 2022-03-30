@@ -52,7 +52,7 @@ body {
 
   font-size: 50px;
   color: white;
-}
+} */
 
 .head {
   background-color: #ffe8b2;
@@ -61,7 +61,7 @@ body {
   margin-top: -3vw;
 }
 
-/*   MENU   
+/*   MENU   */
 .container {
   position: absolute;
   margin-top: 4vw;
@@ -93,4 +93,4 @@ body {
     transform: rotate(45deg) translate(-17px, -17px);
     width: 90px;
     height: 5px;
-}*/
+}
