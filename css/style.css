@@ -2,6 +2,7 @@ body {
   margin: 0;
   background: -webkit-linear-gradient(161deg, #ffb88c,#bf8a6a);
   background: linear-gradient(161deg, #ffb88c,#bf8a6a);
+  transition: 0.4s;
 }
 
 .textHead {
@@ -22,7 +23,7 @@ body {
 
   font-family: 'Roboto', sans-serif;
   font-weight: 500;
-  font-size: 4.8vw;
+  font-size: 5vw;
   color: #5C4232;
 }
 
@@ -44,6 +45,8 @@ body {
 
   font-size: 50px;
   color: white;
+
+  transition: 0.4s;
 }
 .button2 {
   background-color: #aa8bb4;
@@ -79,6 +82,11 @@ button {
   height: 20vw;
   border-radius: 3vw;
   margin-top: -3vw;
+}
+
+.button1.button1--onclick,
+.button1:focus {
+  background-color: green;
 }
 
 /*   MENU   */
