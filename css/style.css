@@ -6,7 +6,7 @@ body {
 
 .textHead {
   position: absolute;
-  margin-top: 1vw;
+  margin-top: 3vw;
   left: 30px;
   font-family: 'Montserrat', sans-serif;
   font-weight: 700;
@@ -17,21 +17,40 @@ body {
 
 .textUnderHead {
   position: absolute;
-  margin-top: 11vw;
+  margin-top: 13vw;
   left: 35px;
 
   font-family: 'Roboto', sans-serif;
-  font-weight: 100;
+  font-weight: 500;
   font-size: 4.8vw;
   color: #5C4232;
 }
 
-.buttons {
-  background-color: red;
+.img1 {
+  position: absolute;
+  display:contents;
+}
+
+.button1 {
+  background-color: #93b3a6;
   margin-top: 10vw;
   text-align: center;
   width: 80vw;
-  border: none;
+  height: 120px;
+  border-radius: 1vw;
+
+  position: absolute;
+  left: 10vw;
+
+  font-size: 50px;
+  color: white;
+}
+.button2 {
+  background-color: #aa8bb4;
+  margin-top: 27vw;
+  text-align: center;
+  width: 80vw;
+  height: 120px;
   border-radius: 1vw;
 
   position: absolute;
@@ -41,7 +60,8 @@ body {
   color: white;
 }
 
-/* button {
+
+button {
   background-color: blue;
   text-align: center;
   width: 50%;
@@ -52,7 +72,7 @@ body {
 
   font-size: 50px;
   color: white;
-} */
+}
 
 .head {
   background-color: #ffe8b2;
@@ -64,7 +84,7 @@ body {
 /*   MENU   */
 .container {
   position: absolute;
-  margin-top: 4vw;
+  margin-top: 6vw;
   margin-left: 88vw;
   float: right;
   display: inline-block;
