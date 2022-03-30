@@ -84,9 +84,13 @@ button {
   margin-top: -3vw;
 }
 
-.button1.button1--onclick,
 .button1:focus {
   background-color: green;
+}
+
+.change .button2 {
+  background: blue;
+  content: none;
 }
 
 /*   MENU   */
